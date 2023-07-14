@@ -1,0 +1,78 @@
+/* 769px — 1024px */
+@media screen and (max-width:1024px) and (min-width:769px) {
+    div.dash--container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    section.dash--nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.dash--nav ul.links{
+        display: none;
+    }
+
+    section.dash--nav article{
+        display: none;
+    }
+
+    section.dash--nav a{
+        @apply py-8;
+    }
+
+    section.right--section article div.top{
+        @apply grid-rows-2 grid-cols-2 gap-4 w-[80vw] mx-auto;
+    }
+
+    div.pie--chart div.wrapper h1{
+        @apply text-base;
+    }
+}
+
+@media screen and (max-width:769px) {
+    div.dash--container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    section.dash--nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.dash--nav ul.links{
+        display: none;
+    }
+
+    section.dash--nav article{
+        display: none;
+    }
+
+    section.dash--nav a{
+        @apply py-8;
+    }
+
+    section.right--section article div.top{
+        @apply grid-rows-2 grid-cols-2 gap-4 w-[80vw] mt-12;
+    }
+
+    div.pie--chart{
+        display: none;
+    }
+    
+    div.more--details{
+        display: none;
+    }
+
+    article.top--section{
+        display: none;
+    }
+
+    article.top--section span{
+        display: block;
+    }
+}
