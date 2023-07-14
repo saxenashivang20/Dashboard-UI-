@@ -66,7 +66,7 @@ const Signup = () => {
           </a>
           <Link
             to={'/dashboard'}
-            className='text-base font-semibold text-white bg-black w-[90%] py-2 rounded-lg'
+            className='text-base font-semibold text-white bg-black w-[90%] py-2 rounded-lg flex justify-center items-center'
           >
              Sign in
           </Link>
