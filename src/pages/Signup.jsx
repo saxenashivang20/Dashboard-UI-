@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const clientId = '432738920011-oj1mgtttpl3logugpt4sgj8071aagktc.apps.googleusercontent.com'; 
 
 const handleGoogleSignIn = () => {
-  const redirectUri = `https://dashboard-d2sjjejzh-saxenashivang20.vercel.app/dashboard`; 
+  const redirectUri = `https://dashboard-ui-blue.vercel.app/dashboard`; 
   const scope = 'profile email'; 
 
   const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${encodeURIComponent(
