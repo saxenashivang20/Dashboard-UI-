@@ -20,7 +20,7 @@ const DashNav = () => {
       <ul className='links text-lg text-white mb-auto text-left px-8 font-medium list-none'>
         <li className='link py-4 flex justify-start items-center'>
           <FiPieChart />
-          <span className='px-4 active font-semibold'>Dashoard</span>
+          <span className='px-4 active font-semibold'>Dashboard</span>
         </li>
         <li className='link py-4 flex justify-start items-center opacity-70'>
           <FaTags />
